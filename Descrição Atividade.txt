@@ -1,0 +1,14 @@
+O formato de arquivos csv permite representar dados de planilhas de cálculo ou de bancos de dados em simples arquivos de texto onde cada campo é separado por vírgula. A biblioteca csv do Python  (com mesmo nome do formato) permite a leitura e escrita destes arquivos. Em particular, para o projeto, precisaremos ler arquivos csv para carregá-los em dicionários ou listas.
+O matplotlib é uma biblioteca poderosa do Python que permite construir e apresentar um sem número de gráficos. No projeto focaremos em três tipos de gráficos: de linha, de barras e de caixa (boxplot).
+
+
+O propósito desta tarefa é que vocês se familiarizem com as bibliotecas csv e matplotlib do Python, as mesmas que serão necessárias no projeto. Para isto, vocês terão que construir:
+
+1) um gráfico de linhas usando os dados contidos no arquivo csv: "sample-line.csv"
+2) um gráfico de barras usando os dados contidos no arquivo csv "wealth-per-country.csv"
+
+Para o primeiro gráfico, os valores da coordenada x serão aqueles da primeira coluna do arquivo enquanto que o  os valores da ordenada y serão os valores da segunda coluna.
+
+Para o gráfico de barras, o arquivo csv contém colunas para os seguintes dados.
+Country, Median_Wealth, Mean_Wealth, Population
+O objetivo é criar uma gráfico de barras de tal forma que para cada país haja três barras, uma para cada uma das restantes colunas (Median_Wealth, Mean_Wealth, Population)
